@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 # For deployment
-baseURL = "https://kronann.github.io/aoraki-market.github.io"
+baseURL = "https://kronann.github.io/aoraki-market-dev"
 # For local 
 # baseurl = "http://localhost:1313/"
 title = "Aoraki | Forestry and Fabrication"
