@@ -147,6 +147,7 @@ HUGO comes with scss/sass function so all we got to do is create a folder named 
 
 Then create another folder in "assets" and name it "sass" with a file called "main.scss".
 
+
 ```
 //Add the code before to </head>
 
