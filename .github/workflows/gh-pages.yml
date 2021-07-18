@@ -28,10 +28,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           # Adding deploy key and external repostitory. Comment out github_token because we are deploying to a public repository.
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: kronann/aoraki-market.github.io
+          #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          #external_repository: kronann/aoraki-market.github.io
           # changed name of branch. default: gh-pages
           publish_branch: main 
           publish_dir: ./public
