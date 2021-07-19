@@ -33,7 +33,11 @@ jobs:
           #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           #external_repository: kronann/aoraki-market.github.io
           # changed name of branch. default: gh-pages
+          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          #external_repository: kronann/aoraki-market.github.io
+          # changed name of branch. default: gh-pages
+          publish_branch: gh-pages 
           publish_dir: ./public
           # Added name and email
-          user_name: 'test'
-          user_email: 'test@gmail.com'
+          user_name: 'kronann'
+          user_email: 'rolland.greg@gmail.com'
