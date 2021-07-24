@@ -2,7 +2,7 @@
 # For deployment
 baseURL = ""
 #relativeURLs = "True"
-canonifyURLs = true
+canonifyURLs = false
 
 # For local 
 # baseurl = "http://localhost:1313/"
