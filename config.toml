@@ -1,6 +1,6 @@
 ################################### Default Configuration ############################
 # For deployment
-baseURL = ""
+baseURL = "aoraki-market.github.io"
 #relativeURLs = "True"
 canonifyURLs = false
 
