@@ -2,6 +2,7 @@
 # For deployment
 baseURL = "aoraki-market.github.io"
 #relativeURLs = "True"
+canonifyURLs = true
 
 # For local 
 # baseurl = "http://localhost:1313/"
